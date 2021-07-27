@@ -70,7 +70,7 @@ button {
 }
 button:hover {
   filter: brightness(130%);
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 button:active {
   transform: translate(0, 0.3rem);
@@ -112,11 +112,15 @@ footer {
   }
 }
 /* Media Queries: Tablet or smaller Devices */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
   .quote-container {
     margin: auto 15px;
   }
   .quote-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+  button {
+    font-size: 1rem;
+    padding: 0 0.6rem;
   }
 }
